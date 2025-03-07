@@ -1,0 +1,24 @@
+#!
+************************************************************************
+* ADSTAR Distributed Storage Manager (adsm)                            *
+* Server Component                                                     *
+*                                                                      *
+* 5639-B9300 (C) Copyright IBM Corporation 1997                        *
+************************************************************************
+************************************************************************
+* Name:            adsmuserexit.ref
+*
+* Description:     Import file to allow user-exit entry points to be
+*                  resolved at run-time
+*
+* Environment:     *********************************************
+*                  ** This is a platform-specific source file **
+*                  ** versioned for:   "AIX V3 on RS/6000"    **
+*                  *********************************************
+*
+************************************************************************
+
+*
+* 1. User-Exit Entry Point
+*
+adsmV3UserExit
