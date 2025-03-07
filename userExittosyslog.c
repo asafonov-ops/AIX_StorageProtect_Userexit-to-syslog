@@ -58,7 +58,7 @@ void adsmV3UserExit( void *anEvent )
 
   /* Field Access:  eventData->.... */
   /* Your code here ... */
-openlog("PRDRHAIXSP02",LOG_PID,LOG_LOCAL0);
+openlog("YOUR_SP_INSTANCE_NAME",LOG_PID,LOG_LOCAL0);
 syslog(LOG_WARNING, (char *)eventData->event);
 closelog();
 
