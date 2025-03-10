@@ -7,8 +7,5 @@ SP instance dsmserv.opt entry:
 USEREXit YES /opt/tivoli/tsm/server/bin/userExittosyslog
 
 Limitations:
-1. SP instance name is hardcoded in userExittosyslog.c:
-openlog("**YOUR_SP_INSTANCE_NAME**",LOG_PID,LOG_LOCAL0); 
-To make a change - modify userExittosyslog.c and recompile USEREXIT. SP instance needs to be restarted to apply the change
+1. To make a change in USEREXIT, SP instance needs to be stopped, USEREXIT recompiled and instance restarted
 2. You need to have cc_r compiler isnatlled on you AIX server to compile this code.
-
